@@ -19,9 +19,15 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/bootstrap/css/bootstrap.min.css",
+        "app/trumbowyg/trumbowyg.css",
+        "app/trumbowyg/plugins/colors/ui/trumbowyg.colors.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "app/trumbowyg/jquery.min.js",
+        "assets/bootstrap/js/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
